@@ -6,4 +6,9 @@ FactoryBot.define do
     password { "sercetPassword" }
     password_confirmation { "sercetPassword" }
   end
+
+  factory :gram do
+    message { "hello" }
+    association :user
+  end
 end

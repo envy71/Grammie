@@ -77,3 +77,5 @@ end
 gem 'autoprefixer-rails', '8.6.5'
 
 gem 'simple_form'
+
+gem 'devise'
